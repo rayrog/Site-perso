@@ -1,10 +1,71 @@
-body {
-  padding-top: 10px;
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+ body {
+    padding-top: 10px;
+    font-family: 'Open Sans';
+    background: url(img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-[class*="col-"], footer {
-  background-color: lightgreen;
-  border: 2px solid black;
-  border-radius: 6px;
-  line-height: 40px;
+.red {
+    color: #bd0e0e;
+}
+
+.index{
+    height: 100%;
+  padding-top: 150px;
   text-align: center;
+ 
+    font-family: 'Open Sans';
+    background: url(img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.education{
+        height: 100%;
+  padding-top: 150px;
+  text-align: center;
+}
+h1 {
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 150px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+    text-shadow: black 2px 2px 2px;
+}
+h2 {
+    color: #d62929;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 0 0 72px;
+    text-align: center;
+    text-shadow: #6c5656 1px 1px 1px ;
+}
+p {
+    color: #685206;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 24px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.left {
+    float: left;
+    margin-left: 15px;
+    width: 260px;
+}
+.right {
+    float: right;
+    margin-right: 15px;
+    width: 260px;
 }

@@ -5,13 +5,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Mon site</title>
-    
-    <link rel="stylesheet" href="style.css">
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
 
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,33 +23,103 @@
 </head>
 
 <body>
-   <div class="container">
+    <nav class="navbar navbar-fixed-top  navbar-inverse  " role="navigation">
 
-      <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <ul class="nav navbar-nav">
-      <li class="active"> <a href="#">Accueil</a> </li>
-      <li> <a href="#">Liens</a> </li>
-      <li> <a href="#">Témoignages</a> </li>
-      <li> <a href="#">Références</a> </li>
-    </ul>
-    <form class="navbar-form navbar-right inline-form">
-      <div class="form-group">
-        <input type="search" class="input-sm form-control" placeholder="Recherche">
-        <button type="submit" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
-      </div>
-    </form>
-  </div>
-</nav>
+        <div class="container">
+            <!-- bouton resized -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-badouch-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
 
+                </button>
+                <!--Fin bouton resized -->
+                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;R.R </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="bs-badouch-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#index"><span class="glyphicon glyphicon-home red"></span>&nbsp;&nbsp;Accueil</a>
+                    </li>
+                    <li><a href="#education"><span class="glyphicon glyphicon-education"></span>&nbsp;&nbsp;Études</a>
+                    </li>
+                    <li><a href="#comp"><span class ="glyphicon glyphicon-cog "></span>&nbsp;&nbsp;Compétences</a>
+                        <li><a href="#exp"><span class ="glyphicon glyphicon-briefcase"></span>&nbsp;&nbsp;Expériences</a>
+                            <li><a href="#passion"><span class ="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;Contact</a> 
+                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<section id="index" class="index">
+    <div class="container  " >
+        <div class="row ">
+            <div class="col-md-12 ">
+                <h1> Rogaï Rayan</h1>
+                <br>
+                <h2>Développeur Informatique </h2>
+            </div>
+
+
+        </div>
     </div>
-
-
-
+    </section>
+    <section id="education" class="education">
+    
+   sssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+    
+    </section>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/jquery.easing.min.js"></script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/backstretch.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/scrolling-nav.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>
+<!--<div class="container infos">
+<table class="table "> 
+<tr> 
+	<td style="color: #ABACAC;text-align: center;font-size:28px"colspan="3">Mon profil :</td> 
+</tr> 
+	<tr> 
+	<td rowspan="7" width="50%">
+		<blockquote >
+			<p class="text-muted" style="font-size:130%">Je suis un étudiant en IUT Informatique sur le campus de la Doua à Lyon, passionné par l’informatique.
+<br>Par la suite, j’envisage d’intégrer une école d’ingénieur dans l’espoir de me spécialiser dans la sécurité que perçois comme un secteur clé du monde de l’informatique, et souvent trop vite négligé.
+			</p>
+			</blockquote> 
+	</td> 
+	<td><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;&nbsp;Nom & Age</td> 
+	<td>ROGA&Iuml; Rayan<br> 18 ans</td> 
+</tr> 
+
+<tr> 
+	<td><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;&nbsp;Adresse</td> 
+	<td>Lyon - France</td> 
+</tr> 
+<tr> 
+	<td><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;&nbsp;E-mail </td> 
+	<td>rayan.rogai@hotmail.fr</td> 
+</tr> 
+<tr> 
+	<td> <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><h4>&nbsp;&nbsp;Telephone</h4></td> 
+	<td>+33 6 67 92 95 11</td> 
+</tr> 
+<tr>
+	<td><span class="glyphicon glyphicon-education" aria-hidden="true"></span>&nbsp;&nbsp;Situation</td> 
+	<td>
+
+		
+			<li>Recherche d'un stage de fin d'&eacute;tudes de 10 semaines (Niveau Bac+2)</li>
+			<li>Recherche d'un contrat d'lternance (Niveau Bac+3 à Bac+5)</li>
+		
+
+</td> 
+</tr> </table>
+</div>-->
