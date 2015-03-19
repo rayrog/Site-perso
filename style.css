@@ -1,36 +1,25 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
  body {
     padding-top: 10px;
     font-family: 'Open Sans';
-    background: url(img/bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
+
 .red {
     color: #bd0e0e;
 }
 
-.index{
-    height: 100%;
-  padding-top: 150px;
-  text-align: center;
- 
-    font-family: 'Open Sans';
-    background: url(img/bg.jpg) no-repeat center center fixed;
+.section-index {
+    height: 100vh;
+    padding-top: 15%;
+    background: url(img/bg-index.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-.education{
-        height: 100%;
-  padding-top: 150px;
-  text-align: center;
-}
-h1 {
+.section-index h1 {
     color: #fff;
     font-family: 'Helvetica Neue', sans-serif;
     font-size: 150px;
@@ -40,7 +29,7 @@ h1 {
     text-align: center;
     text-shadow: black 2px 2px 2px;
 }
-h2 {
+.section-index h2 {
     color: #d62929;
     font-family: 'Open Sans', sans-serif;
     font-size: 32px;
@@ -50,22 +39,53 @@ h2 {
     text-align: center;
     text-shadow: #6c5656 1px 1px 1px ;
 }
-p {
-    color: #685206;
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    margin: 0 0 24px;
-    text-align: justify;
-    text-justify: inter-word;
+.section-education {
+    height: 100vh;
+    padding-top: 150px;
+    background: #B3C3FA;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-.left {
-    float: left;
-    margin-left: 15px;
-    width: 260px;
+
+.section-education p{
+    color: red;
+    
 }
-.right {
-    float: right;
-    margin-right: 15px;
-    width: 260px;
+.section-education h1{
+    color: white;
+    text-align: center;
+}
+.section-skills {
+    height: 100vh;
+    padding-top: 150px;
+    background: url(img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.section-experiences {
+    height: 100vh;
+    padding-top: 150px;
+    background: url(img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.section-contact {
+    height: 100vh;
+    padding-top: 150px;
+    background: url(img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.p-education {
+    color: white;
+    font-size: 15px;
 }
